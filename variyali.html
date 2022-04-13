@@ -168,7 +168,7 @@
     <!--<div class="tittle wow fadeInUp">-->
     <!--    <h2>Gallery</h2>-->
     <div class="tittle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-        <h2>Detail</h2>
+        <h2>details</h2>
     </div>
     <div class="hero">
         <div class="row">
@@ -177,14 +177,14 @@
                 <div class="slider">
                     <div class="product">
 
-                        <img src="images/sh/1.jpg" alt="" onclick="clickme(this)">
                         <img src="images/sh/2.jpg" alt="" onclick="clickme(this)">
+                        <img src="images/sh/1.jpg" alt="" onclick="clickme(this)">
                         <img src="images/sh/3.jpg" alt="" onclick="clickme(this)">
                         <img src="images/sh/4.jpg" alt="" onclick="clickme(this)">
 
                     </div>
                     <div class="preview">
-                        <img src="images/sh/1.jpg" id="imagebox" alt="">
+                        <img src="images/sh/2.jpg" id="imagebox" alt="">
                     </div>
                 </div>
 
@@ -192,15 +192,20 @@
             <div class="col">
                 <div class="who_we_area col-md-7 col-sm-6">
                     <div class="subtittle">
-                        <h2>Alovera Refreshinc
-                        </h2>
+                        <h2>variyali Refreshinc </h2>
                     </div>
+                <div class="who_we_area ">
+                        <h4>Deep Cleansing Milk  </h4>
+
+ 
                     <p style="padding-top:30px;">We offer a full Web Service, which starts with plan and helps through to Internet Marketing, SEO, PPC, CMS Development, Magento, Open Cart,
                       E-commerce,HTML5, Web Application, Web Hosting, Web Portal, Website Maintenance, Link building, SMO, and SEO services and so on.</p>
-                             <a href="websitrs.html" class="button_all">View more</a>
+           
                 </div>
             
-
+                <form action="#">
+                    <button href="websitrs.html" class="button_all">Buy now</button>
+                  </form>
             </div>
         </div>
 
@@ -247,6 +252,12 @@
 <!-- End Banner area -->
 
 <style>
+.button_all {
+    margin-top:5%;
+    margin-bottom: 5%;
+
+
+}
 .tittle h2.download
 {
 	padding-bottom:50px;
@@ -285,3 +296,117 @@
 
 
 
+<style>
+
+.hero{
+    /* width: 100%; */
+}
+.row{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+} 
+.col{
+    flex-basis: 45%;
+}
+.slider{
+    height: 80vh;
+    display: flex;
+}
+.product img{
+    height: 15vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.product img:hover{
+    opacity: 1;
+}
+
+
+.preview img{
+    height: 100%;
+}
+p{
+    margin-bottom: 20px;
+}
+.brand{
+    background: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+h2{
+    font-size: 45px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.rating{
+    display: flex;
+    height: 15px;
+}
+.rating .fa{
+    color: #008000;
+}
+.price{
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+button .fa{
+    margin-right: 10px;
+}
+.related{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+.related .row{
+    width: 100%;
+    height: auto;
+}
+.columns{
+    flex-basis: 22%;
+    height: 100%;
+}
+.items img{
+    width: 100%;
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.details .rating{
+    margin: 10px 0;
+}
+
+
+
+
+
+</style>
