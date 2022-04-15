@@ -2,18 +2,20 @@
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $number = $_POST['number'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+$name2 = $_POST['name2'];
+$address = $_POST['address'];
+$date = $_POST['date'];
 
 $email_from = 'info@hdwebsites.com';
 
-$email_subject = 'New Form Submission';
+$email_subject = 'Customer Oder';
 
 $email_body = "User Name: $name.\n".
                "User Email: $visitor_email.\n".
                 "User Number: $number.\n".
-                 "Subject: $subject.\n". 
-                  "User Message: $message.\n";
+                 "Product Name: $name2.\n". 
+                  "User Address: $address.\n";
+                   "User Date: $date.\n";
 
 $to = 'dhansukhharkhani@gmail.com';
 
